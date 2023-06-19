@@ -1,11 +1,13 @@
-Api Convert data from BKK , GEAT , TMD , RID to Standard
+# Api Convert data from BKK , GEAT , TMD , RID to Standard
 
 Query parameter
+```js
 A001 - A003
-required
+```
+## required
 interval EX [ C-5 , C-15 , C-60 , C-180 , P-Daily , ... ]
 latest Ex [ true , false ]
-optional
+## optional
 startDatetime format "YYYY/MM/DDTHH:MM:SS" required ถ้า latest = false
 endDatetime format "YYYY/MM/DDTHH:MM:SS" required ถ้า latest = false
 agencyCode EX. G50504
